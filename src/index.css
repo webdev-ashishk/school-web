@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  /* background-color: rgb(224, 253, 230); */
+  padding: 0.2rem;
+}
+nav > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+nav > ul > li {
+  font-size: 3rem;
+  list-style-type: none;
+}
+nav > ul > li > a {
+  color: blue;
+  padding: 10px;
+  text-decoration: none;
+}
+nav > ul > li > a:hover {
+  color: red;
+  text-transform: underline;
+}
+.image {
+  width: 100%;
+  height: 650px;
+  filter: brightness(80%);
+}
+
+.insideImageText {
+  /* border: 10px solid red; */
+  display: absolute;
+  top: 200px;
+}
+.insideImageText > * {
+  color: white;
+  /* font-size: 3rem; */
+}
+.insideImageText > *:first-child {
+  font-size: 2rem;
+}
+.insideImageText > *:last-child {
+  font-size: 1.5rem;
+}
+
+.btnHover:hover {
+  background: rgb(11, 111, 142);
+  color: white;
+}
+/* not working right now  */
+.captionAlignCenter {
+  border: 2px solid blue;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome {
+  /* border: 2px solid blue; */
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wcome {
+  font-size: 3rem;
+  /* font-weight: bold; */
+}
+strong {
+  font-weight: 8000;
+  /* letter-spacing: 1px; */
+}
+/* style footer  */
+h1 {
+  /* font-size: 40px; */
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, red, blue);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+/* style About base Image  */
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 2px solid red; */
+}
+.img > img {
+  width: 100%;
+  max-height: 700px;
+}
+.img > .mission {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: blue;
+  font-size: 1.3rem;
+  /* border: 2px solid green; */
+}
+.coreValues {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  border: 2px solid green;
+  padding-top: 40px;
+  flex-direction: column;
+}
+.coreValues > .insideCore {
+  display: flex;
+  /* align-items: center; */
+  border: 2px solid black;
+  /* justify-content: center; */
+  width: 500px;
+  flex-direction: row;
+}
