@@ -160,7 +160,7 @@ h1 {
 .outBuilding {
   display: flex;
   /* text-align: center; */
-  border: 2px solid black;
+  /* border: 2px solid black; */
   flex-direction: column;
 }
 .headingBuilding {
@@ -172,6 +172,6 @@ h1 {
 }
 .outBuilding > .building {
   text-align: center;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   padding: 1rem;
 }
