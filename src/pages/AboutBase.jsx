@@ -1,4 +1,4 @@
-import { About, CoreValues } from "./About";
+import { OurBuilding, CoreValues } from "./About";
 export const AboutBase = () => {
   return (
     <>
@@ -62,7 +62,7 @@ export const AboutBase = () => {
           </div>
         </div>
       </div>
-      <About fname="ashish-1" lname="gpt" />
+      <OurBuilding />
     </>
   );
 };

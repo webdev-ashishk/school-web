@@ -15,7 +15,7 @@ nav > ul {
   flex-wrap: wrap;
 }
 nav > ul > li {
-  font-size: 3rem;
+  font-size: 2rem;
   list-style-type: none;
 }
 nav > ul > li > a {
@@ -140,4 +140,38 @@ h1 {
 .upperCore {
   background-color: #e2e2e2;
   text-align: center;
+}
+
+.imageText {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* border: 2px solid black; */
+  font-size: 1.4rem;
+  width: 70%;
+}
+.imageText > img {
+  width: 400px;
+  height: 400px;
+}
+.imageText > * {
+  margin: 2rem;
+}
+.outBuilding {
+  display: flex;
+  /* text-align: center; */
+  border: 2px solid black;
+  flex-direction: column;
+}
+.headingBuilding {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.outBuilding > .building {
+  text-align: center;
+  border: 2px solid green;
+  padding: 1rem;
 }
