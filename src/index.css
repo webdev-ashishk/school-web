@@ -55,7 +55,7 @@ nav > ul > li > a:hover {
 }
 /* not working right now  */
 .captionAlignCenter {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   /* text-align: center; */
   display: flex;
   justify-content: center;
@@ -109,18 +109,35 @@ h1 {
   /* border: 2px solid green; */
 }
 .coreValues {
-  /* display: flex; */
+  display: flex;
   align-items: center;
   justify-content: center;
   border: 2px solid green;
   padding-top: 40px;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px;
 }
 .coreValues > .insideCore {
   display: flex;
-  /* align-items: center; */
-  border: 2px solid black;
-  /* justify-content: center; */
+  align-items: center;
+  /* border: 2px solid black; */
+  justify-content: center;
   width: 500px;
   flex-direction: row;
+}
+.coreValues > .coreImage {
+  float: left;
+}
+.coreValues > .coreDetail {
+  /* border: 2px solid blue; */
+  text-align: center;
+}
+
+.values {
+  text-align: center;
+}
+.upperCore {
+  background-color: #e2e2e2;
+  text-align: center;
 }

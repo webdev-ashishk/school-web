@@ -17,11 +17,17 @@ export function About({ fname, lname }) {
 export function CoreValues({ image, heading, desc }) {
   return (
     <>
+      {/* <div className="upperCore"> */}
       <div className="coreValues">
-        <img src={image} alt="" />
-        <h1>{heading}</h1>
-        <p>{desc}</p>
+        <div className="coreImage">
+          <img src={image} alt="" />
+        </div>
+        <div className="coreDetail">
+          <h1>{heading}</h1>
+          <p>{desc}</p>
+        </div>
       </div>
+      {/* </div> */}
     </>
   );
 }
