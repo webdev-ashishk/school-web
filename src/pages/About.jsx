@@ -51,3 +51,43 @@ export function OurBuilding() {
     </>
   );
 }
+
+export function AboutFooter() {
+  return (
+    <>
+      <div className="aboutFooter">
+        {/* <div className="fHeading"></div>
+    <div className="socialMediaImage"></div>
+    <div className="text"></div> */}
+
+        <h1>Contact US</h1>
+        <div className="sImages">
+          <img
+            src="https://thumbs.dreamstime.com/b/tik-tok-facebook-twitter-instagram-youtube-collection-popular-social-media-logo-isolated-transparent-background-196205520.jpg"
+            alt=""
+            className="contactSocialImage"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            minus ullam mollitia voluptatem nam suscipit cupiditate magnam ipsam
+            tenetur doloribus.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            minus ullam mollitia voluptatem nam suscipit cupiditate magnam ipsam
+            tenetur doloribus.
+          </p>
+        </div>
+      </div>
+    </>
+  );
+}
+export function AboutLastFooter() {
+  return (
+    <>
+      <div className="lastFooter">
+        <h3 className="text-center">copywrite@2023</h3>
+      </div>
+    </>
+  );
+}

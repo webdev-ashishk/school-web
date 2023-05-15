@@ -6,7 +6,7 @@
 
 nav {
   /* background-color: rgb(224, 253, 230); */
-  padding: 0.2rem;
+  /* position: fixed; */
 }
 nav > ul {
   display: flex;
@@ -112,19 +112,21 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   padding-top: 40px;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 20px;
+  /* margin: 0px; */
 }
 .coreValues > .insideCore {
   display: flex;
   align-items: center;
-  /* border: 2px solid black; */
+  border: 2px solid black;
   justify-content: center;
   width: 500px;
   flex-direction: row;
+  margin: 20px;
+  border-radius: 30px;
 }
 .coreValues > .coreImage {
   float: left;
@@ -152,7 +154,6 @@ h1 {
 }
 .imageText > img {
   width: 400px;
-  height: 400px;
 }
 .imageText > * {
   margin: 2rem;
@@ -174,4 +175,24 @@ h1 {
   text-align: center;
   /* border: 2px solid green; */
   padding: 1rem;
+}
+.contactSocialImage {
+  width: 200px;
+  background-blend-mode: multiply;
+}
+
+.aboutFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f2f2f2;
+}
+.sImages {
+  text-align: center;
+}
+.lastFooter {
+  background-color: slateblue;
+  padding: 1px;
+  color: white;
 }
