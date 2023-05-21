@@ -245,3 +245,45 @@ form > .send {
   justify-content: center;
   align-items: center;
 }
+/* .banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+
+ 
+  height: 700px;
+  color: white;
+  background-image: url("https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg");
+  background-repeat: no-repeat;
+}
+.h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  font-size: 3rem;
+} */
+
+.banner {
+  background-image: url("https://images.unsplash.com/photo-1581726707445-75cbe4efc586?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1176&q=80");
+  background-size: cover;
+  background-position: center;
+  height: 700px; /* Adjust the height as needed */
+  position: relative;
+  /* filter: brightness(35%); */
+  margin-bottom: 70px;
+}
+
+.banner .h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+}
+.classUs {
+  margin-bottom: 90px;
+}

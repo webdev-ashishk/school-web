@@ -2,7 +2,10 @@ import { AboutLastFooter, AboutFooter } from "./About";
 const Contact = () => {
   return (
     <>
-      <h1 className="text-center fw-bold">
+      <div className="banner">
+        <div className="h2">contact Us</div>
+      </div>
+      <h1 className="text-center fw-bold classUs">
         Call us at 718-402-3300 or fill out the form below.
       </h1>
       <div class="contact-form fContainer">
