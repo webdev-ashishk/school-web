@@ -86,7 +86,7 @@ export function AboutLastFooter() {
   return (
     <>
       <div className="lastFooter">
-        <h3 className="text-center">copywrite@2023</h3>
+        <h3 className="text-center">copywrite@{new Date().getFullYear()}</h3>
       </div>
     </>
   );

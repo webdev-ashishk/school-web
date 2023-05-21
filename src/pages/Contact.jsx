@@ -1,7 +1,54 @@
+import { AboutLastFooter, AboutFooter } from "./About";
 const Contact = () => {
   return (
     <>
-      <h1>Contact Working</h1>
+      <h1 className="text-center fw-bold">
+        Call us at 718-402-3300 or fill out the form below.
+      </h1>
+      <div class="contact-form fContainer">
+        <form action="https://formspree.io/f/mrgvkpow" method="POST">
+          <label>
+            Name:
+            <input
+              type="text"
+              placeholder="Write Your Name"
+              class="name"
+              required
+            />
+          </label>
+          <br />
+          <label>
+            Email:
+            <input
+              type="email"
+              name="email"
+              class="email"
+              placeholder="Write Your email"
+              autocomplete="on"
+              required
+            />
+          </label>
+          <br />
+          <br />
+          <label htmlFor="tarea">
+            Message:
+            <textarea
+              placeholder="Write Your Message"
+              class="text-area"
+              name="message"
+              rows="2"
+              cols="27"
+              autocomplete="on"
+              required
+              id="tarea"
+            ></textarea>
+          </label>
+          <button type="submit" class="send btn btn-primary text-white btn-lg">
+            Send
+          </button>
+        </form>
+      </div>
+      {/* end of form  */}
 
       <div className="mapContainer">
         <div className="mapText">
@@ -46,6 +93,8 @@ const Contact = () => {
           ></iframe>
         </div>
       </div>
+      <AboutFooter />
+      <AboutLastFooter />
     </>
   );
 };
