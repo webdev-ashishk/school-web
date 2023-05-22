@@ -24,7 +24,8 @@ nav > ul > li > a {
   text-decoration: none;
 }
 nav > ul > li > a:hover {
-  color: red;
+  background-color: blue;
+  color: white;
   text-transform: underline;
 }
 .image {
@@ -286,4 +287,55 @@ form > .send {
 }
 .classUs {
   margin-bottom: 90px;
+}
+
+/* styling Enroll page  */
+.enroll-banner-wrapper {
+  background-image: url("https://images2.publicschoolreview.com/photo/1200x924/0/5/istock-000013621266xsmall-na6gy0d5qeo0.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 700px; /* Adjust the height as needed */
+  position: relative;
+  /* filter: brightness(35%); */
+  margin-bottom: 70px;
+}
+
+.enroll-banner-wrapper .inside-enroll {
+  position: absolute;
+  top: 50%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+
+.textContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* align-items  : center; */
+  flex-direction: column;
+  width: 30%;
+}
+.div-image {
+  margin-left: 10px;
+  width: 500px;
+  height: 500px;
+}
+.girlWithText {
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2e2e2;
+  padding: 3rem;
+}
+.text {
+  margin-left: 20px;
 }
