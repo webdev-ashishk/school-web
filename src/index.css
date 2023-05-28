@@ -5,7 +5,9 @@
 }
 nav {
   /* position: sticky; */
-  border: 5px solid red;
+  /* border: 5px solid red; */
+  overflow: hidden;
+  background-color: black;
 }
 
 nav > ul {
@@ -17,6 +19,7 @@ nav > ul {
 nav > ul > li {
   font-size: 2rem;
   list-style-type: none;
+  border: none;
 }
 nav > ul > li > a {
   color: blue;

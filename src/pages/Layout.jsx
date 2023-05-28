@@ -5,13 +5,7 @@ const Layout = () => {
 
   return (
     <>
-      <h2>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur a
-        ut excepturi id aut, qui in? Quia, culpa quam? Velit dolore sit enim
-        officiis non eius repudiandae et dolorum reiciendis totam nobis,
-        assumenda error, aliquam porro. Soluta autem facere quidem.
-      </h2>
-      <nav>
+      <nav className="sticky-top">
         <ul>
           <li>
             <NavLink to="/" className={getClass}>
