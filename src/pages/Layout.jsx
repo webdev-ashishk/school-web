@@ -1,31 +1,53 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, NavLink } from "react-router-dom";
 
 const Layout = () => {
+  const getClass = ({ isActive }) => (isActive ? "nav-active" : null);
+
   return (
     <>
+      <h2>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur a
+        ut excepturi id aut, qui in? Quia, culpa quam? Velit dolore sit enim
+        officiis non eius repudiandae et dolorum reiciendis totam nobis,
+        assumenda error, aliquam porro. Soluta autem facere quidem.
+      </h2>
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <NavLink to="/" className={getClass}>
+              Home
+            </NavLink>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <NavLink to="/about" className={getClass}>
+              About
+            </NavLink>
           </li>
           <li>
-            <Link to="/enroll">Enroll</Link>
+            <NavLink to="/enroll" className={getClass}>
+              Enroll
+            </NavLink>
           </li>
           <li>
-            <Link to="/event">Event</Link>
+            <NavLink to="/event" className={getClass}>
+              Event
+            </NavLink>
           </li>
           <li>
-            <Link to="/Teacher">Teacher</Link>
+            <NavLink to="/Teacher" className={getClass}>
+              Teacher
+            </NavLink>
           </li>
           <li>
-            <Link to="/resources">Resources</Link>
+            <NavLink to="/resources" className={getClass}>
+              Resources
+            </NavLink>
           </li>
 
           <li>
-            <Link to="/contact">Contact</Link>
+            <NavLink to="/contact" className={getClass}>
+              Contact
+            </NavLink>
           </li>
         </ul>
       </nav>

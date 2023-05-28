@@ -2,6 +2,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
+
 // import AboutBase from "./pages/AboutBase";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
