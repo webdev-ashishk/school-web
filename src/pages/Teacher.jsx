@@ -10,8 +10,10 @@ export const Teacher = () => {
           alt=""
         />
       </div>
-      <AboutFooter />
-      <AboutLastFooter />
+      <div className="outer">
+        <AboutFooter />
+        <AboutLastFooter />
+      </div>
     </>
   );
 };

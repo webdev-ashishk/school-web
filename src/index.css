@@ -349,12 +349,12 @@ form > .send {
   height: 800px;
 }
 .teacher-div {
-  border: 2px solid green;
-  height: 500px;
+  /* border: 2px solid green;  */
+  /* height: 500px; */
 }
 .teacher-image {
   max-width: 100%;
-  height: auto;
+  height: 870px;
 }
 .nav-active {
   background-color: blue;
