@@ -6,7 +6,7 @@ const Contact = () => {
         <div className="h2">contact Us</div>
       </div>
       <h1 className="text-center fw-bold classUs">
-        Call us at 718-402-3300 or fill out the form below.
+        Call us at +91-7905101205 or fill out the form below.
       </h1>
       <div class="contact-form fContainer">
         <form action="https://formspree.io/f/mrgvkpow" method="POST">
