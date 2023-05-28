@@ -27,8 +27,8 @@ nav > ul > li > a {
   text-decoration: none;
 }
 nav > ul > li > a:hover {
-  background-color: lightblue;
-  color: white;
+  background-color: white;
+  color: blue;
 }
 .image {
   width: 100%;
