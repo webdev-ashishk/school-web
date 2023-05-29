@@ -1,6 +1,46 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.js";
+
+const Cart = ({ image, name }) => {
+  return (
+    <>
+      {/* <h1>Cart</h1> */}
+      <div className="cartOne">
+        <img src={image} alt="" className="inside-image" />
+        <h1>{name}</h1>
+      </div>
+    </>
+  );
+};
+
+const HomeAfter = () => {
+  return (
+    <>
+      {/* <h1>Home After</h1> */}
+      <div className="cart-container">
+        <Cart
+          image="https://thumbs.dreamstime.com/b/enrollment-icon-enrollment-nomination-150860740.jpg"
+          name="Enroll"
+        />
+        <Cart
+          image="https://thumbs.dreamstime.com/b/teacher-chalkboard-icon-white-background-teacher-chalkboard-icon-145987774.jpg"
+          name="Teacher"
+        />
+        <Cart
+          image="https://thumbs.dreamstime.com/b/support-icon-vector-isolated-white-background-support-transparent-sign-black-symbols-support-icon-vector-isolated-white-134578573.jpg"
+          name="Support"
+        />
+        <Cart
+          image="https://png.pngtree.com/template/20191024/ourmid/pngtree-flower-pot-and-plant-logo-growth-vector-logo-image_322946.jpg"
+          name="Grow"
+        />
+      </div>
+    </>
+  );
+};
+
+// main function
 export default function Home() {
   return (
     <>
@@ -126,6 +166,7 @@ export default function Home() {
           communities.
         </em>
       </div>
+      <HomeAfter />
     </>
   );
 }

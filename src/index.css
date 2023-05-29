@@ -360,3 +360,36 @@ form > .send {
   background-color: blue;
   color: white;
 }
+
+/* styleing home again  */
+.cartOne {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 300px;
+  height: 180px;
+  margin: 10px;
+  background-color: lightskyblue;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 2px 2px 3px red;
+}
+.cartOne:hover {
+  background-color: rgb(146, 211, 233);
+}
+
+.inside-image {
+  /* border: 2px solid red; */
+  mix-blend-mode: multiply;
+  width: 140px;
+}
+.cart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  height: 300px;
+}
