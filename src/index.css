@@ -368,6 +368,7 @@ form > .send {
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  /* justify-content: space-between; */
   width: 300px;
   height: 180px;
   margin: 10px;
@@ -391,5 +392,18 @@ form > .send {
   align-items: center;
   flex-wrap: wrap;
   margin-top: 20px;
+  justify-content: space-between;
   height: 300px;
+  /* width: 100%; */
+  height: auto;
+}
+
+.welcome-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+  margin-bottom: 40px;
+  background-color: #e2e2e2;
 }

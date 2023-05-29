@@ -150,23 +150,24 @@ export default function Home() {
         </button>
       </div>
       {/* footer  */}
+      <div className="welcome-container">
+        <div className="welcome">
+          <h1 className="wcome">Welcome to</h1>
 
-      <div className="welcome">
-        <h1 className="wcome">Welcome to</h1>
-
-        <h1>
-          <strong>The Brown Charter school for Children</strong>
-        </h1>
-        <em>
-          The Mission of The Bronx Charter School for Children is to empower our
-          children to achieve their
-        </em>
-        <em>
-          greatest potential both as students and as members of their
-          communities.
-        </em>
+          <h1>
+            <strong>The Brown Charter school for Children</strong>
+          </h1>
+          <em>
+            The Mission of The Bronx Charter School for Children is to empower
+            our children to achieve their
+          </em>
+          <em>
+            greatest potential both as students and as members of their
+            communities.
+          </em>
+        </div>
+        <HomeAfter />
       </div>
-      <HomeAfter />
     </>
   );
 }
